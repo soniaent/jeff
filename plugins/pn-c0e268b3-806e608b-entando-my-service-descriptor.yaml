@@ -1,0 +1,10 @@
+descriptorVersion: v4
+name: pn-c0e268b3-806e608b-entando-my-service
+image: 'registry.hub.docker.com/entando/my-service@sha256:5246376798bd9cb1c086f8d4708e6f3222b4d1f194a6c16f0f5361e79606add0'
+dbms: none
+healthCheckPath: /health
+ingressPath: /entando-showcase-bundle-c0e268b3/my-service
+permissions: []
+environmentVariables:
+  - name: ENTANDO_ECR_INGRESS_URL
+    value: 'http://test-sonia.apps.okd4-10.awsentando.net/digital-exchange'

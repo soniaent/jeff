@@ -1,0 +1,131 @@
+code: jeff
+description: jeff
+bundle-type: system-level-bundle
+components:
+  widgets:
+    - widgets/another-mfe-c0e268b3-descriptor.yaml
+    - widgets/search_form-descriptor.yaml
+  pageModels:
+    - pageModels/1-2-column-descriptor.yaml
+    - pageModels/1-2x2-1-column-descriptor.yaml
+    - pageModels/1-2x4-1-column-descriptor.yaml
+    - pageModels/1-column-descriptor.yaml
+    - pageModels/content-page-descriptor.yaml
+    - pageModels/hello_page_template-descriptor.yaml
+    - pageModels/single_frame_page-descriptor.yaml
+  fragments:
+    - fragments/breadcrumb-descriptor.yaml
+    - fragments/default_pagerblock-descriptor.yaml
+    - fragments/default_pagerformblock_is-descriptor.yaml
+    - fragments/default_pagerinfo_is-descriptor.yaml
+    - fragments/entandoapi_is_resource_detail-descriptor.yaml
+    - fragments/entandoapi_is_resource_detail_include-descriptor.yaml
+    - fragments/entandoapi_is_resource_list-descriptor.yaml
+    - fragments/entandoapi_is_service_detail-descriptor.yaml
+    - fragments/entandoapi_is_service_list-descriptor.yaml
+    - fragments/entando_ootb_carbon_include-descriptor.yaml
+    - fragments/internal_servlet_generic_error-descriptor.yaml
+    - fragments/internal_servlet_user_not_allowed-descriptor.yaml
+    - fragments/jacms_content_viewer-descriptor.yaml
+    - fragments/jacms_content_viewer_list-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_boolean-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_bool_io-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_checkbox-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_date-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_enumer-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_enumermap-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_number-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_text-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_threest-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_met_category-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_met_fulltext-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilters-descriptor.yaml
+    - fragments/jacms_row_content_viewer_list-descriptor.yaml
+    - fragments/jeff_bundle_fragment-descriptor.yaml
+    - fragments/jpseo_content_viewer-descriptor.yaml
+    - fragments/jpseo_model_meta_info-descriptor.yaml
+    - fragments/keycloak_auth-descriptor.yaml
+    - fragments/keycloak_auth_with_redirect-descriptor.yaml
+    - fragments/keycloak_login-descriptor.yaml
+    - fragments/language-descriptor.yaml
+    - fragments/login_form-descriptor.yaml
+    - fragments/logo-descriptor.yaml
+    - fragments/messages_system-descriptor.yaml
+    - fragments/navigation_menu-descriptor.yaml
+    - fragments/search_result-descriptor.yaml
+    - fragments/sitemap-descriptor.yaml
+    - fragments/sitemap_menu_include-descriptor.yaml
+    - fragments/userprofile_editcurrentuser_password-descriptor.yaml
+    - fragments/userprofile_editcurrentuser_profile-descriptor.yaml
+    - fragments/userprofile_is_currentwithoutprofile-descriptor.yaml
+    - fragments/userprofile_is_entrycurrentprofile-descriptor.yaml
+    - fragments/userprofile_is_front_alllist_addelementbutton-descriptor.yaml
+    - fragments/userprofile_is_front_alllist_operationmodule-descriptor.yaml
+    - fragments/userprofile_is_front_attributeinfo-descriptor.yaml
+    - fragments/userprofile_is_front_attributeinfo_help_block-descriptor.yaml
+    - fragments/userprofile_is_front_booleanattribute-descriptor.yaml
+    - fragments/userprofile_is_front_checkboxattribute-descriptor.yaml
+    - fragments/userprofile_is_front_compositeattribute-descriptor.yaml
+    - fragments/userprofile_is_front_dateattribute-descriptor.yaml
+    - fragments/userprofile_is_front_enumeratorattribute-descriptor.yaml
+    - fragments/userprofile_is_front_enumeratormapattribute-descriptor.yaml
+    - fragments/userprofile_is_front_hypertextattribute-descriptor.yaml
+    - fragments/userprofile_is_front_longtextattribute-descriptor.yaml
+    - fragments/userprofile_is_front_monolistattribute-descriptor.yaml
+    - fragments/userprofile_is_front_monotextattribute-descriptor.yaml
+    - fragments/userprofile_is_front_numberattribute-descriptor.yaml
+    - fragments/userprofile_is_front_threestateattribute-descriptor.yaml
+    - fragments/userprofile_is_iteratorattribute-descriptor.yaml
+    - fragments/userprofile_is_passwordchanged-descriptor.yaml
+    - fragments/userprofile_is_profilechangeconfirmation-descriptor.yaml
+  pages:
+    - pages/homepage-descriptor.yaml
+    - pages/service-descriptor.yaml
+    - pages/notfound-descriptor.yaml
+    - pages/errorpage-descriptor.yaml
+    - pages/login-descriptor.yaml
+    - pages/my_homepage-descriptor.yaml
+    - pages/about_us-descriptor.yaml
+    - pages/news-descriptor.yaml
+    - pages/sitemap-descriptor.yaml
+    - pages/search_result-descriptor.yaml
+    - pages/jeff_s_bundle_page-descriptor.yaml
+  groups:
+    - groups/groups-descriptor.yaml
+  contentTypes:
+    - contentTypes/bnr-descriptor.yaml
+    - contentTypes/hct-descriptor.yaml
+    - contentTypes/nws-descriptor.yaml
+    - contentTypes/tcl-descriptor.yaml
+  contentModels:
+    - contentModels/news-detail-descriptor.yaml
+    - 'contentModels/banner-text,-image,-cta-descriptor.yaml'
+    - contentModels/2-column-content-descriptor.yaml
+    - contentModels/news-list-bullet-descriptor.yaml
+    - contentModels/news-list-item-descriptor.yaml
+    - contentModels/news-search-results-descriptor.yaml
+    - contentModels/banner-search-results-descriptor.yaml
+    - contentModels/tcl-search-results-descriptor.yaml
+    - contentModels/hello-content-template-descriptor.yaml
+  assets:
+    - assets/36/36-descriptor.yaml
+    - assets/entandoatplan/entandoatplan-descriptor.yaml
+    - assets/entandoatwork/entandoatwork-descriptor.yaml
+    - assets/htmlcode/htmlcode-descriptor.yaml
+  contents:
+    - contents/bnr2-descriptor.yaml
+    - contents/bnr3-descriptor.yaml
+    - contents/nws4-descriptor.yaml
+    - contents/nws5-descriptor.yaml
+    - contents/tcl6-descriptor.yaml
+    - contents/hct34-descriptor.yaml
+  categories:
+    - categories/categories-descriptor.yaml
+  labels:
+    - labels/labels-descriptor.yaml
+  languages:
+    - languages/languages-descriptor.yaml
+  plugins:
+    - plugins/pn-3a0eefc4-13d51bef-entando-simple-ms-descriptor.yaml
+    - plugins/pn-c0e268b3-806e608b-entando-my-service-descriptor.yaml
+    - plugins/pn-c0e268b3-9f21bf63-entando-another-ms-descriptor.yaml
